@@ -56,7 +56,7 @@
        doc="RTP element configuration for color stream" />
 
   <!-- Push down all topics/nodelets into "camera" namespace -->
-  <group ns="camera">
+  <group ns="kortex/camera">
 
     <!-- Start nodelet manager -->
     <arg name="manager" value="$(arg camera)_nodelet_manager" />
